@@ -67,7 +67,13 @@ h1 {
   align-items: center;
 }
 
-.movie-content .movie-title-year {
+.movie-title-year {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 20px;
+}
+.movie-content {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
