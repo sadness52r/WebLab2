@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie searcher</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <script defer src="/src/main.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <h1>Movie searcher</h1>
+        <div class="clickable">
+          <input
+          type="text"
+          id="searchInput"
+          class="search-input"
+          placeholder="Enter movie title (For example: Blade Runner)"
+          />
+          <button id="searchBtn" type="button">Search</button>
+        </div>
+      </header>
+      <main class="main-content">
+        <div id="movieDetails" class="movie-details"></div>
+      </main>
+    </div>
+  </body>
+</html>
